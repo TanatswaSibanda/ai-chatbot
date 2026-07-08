@@ -2,6 +2,7 @@ body {
     background: linear-gradient(#FFFFFF 20%, #FFC9E9 80%);
     margin: 0;
     padding: 0;
+
 }
 
 .header {
@@ -64,4 +65,32 @@ h3 {
     font-weight: 500;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+}
+
+#input {
+    background-color: #FFFFFF;
+    border: none;
+    width: 90%;
+    height: 90%;
+    padding: 10px;
+    color: black;
+    font-size: large;
+    outline: none;
+}
+
+#input:focus {
+    border: none;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px 12px;
+    width: 700px;
+    border: solid 3px #EC407A;
+    padding: 20px;
+    gap: 10px;
 }
