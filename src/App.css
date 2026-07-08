@@ -38,3 +38,30 @@ body {
 .img {
     width: 30px;
 }
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 25%;
+}
+
+.person-icon {
+    width: 120px;
+    padding: 0;
+
+}
+
+h3 {
+    margin-top: 0;
+    background: linear-gradient(50deg, #000000 0%, #EC407A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: xx-large;
+    padding: 10px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
