@@ -14,6 +14,9 @@ function App() {
           <img src={dropdown} alt="image" className='img' />
         </button>
       </div>
+      <div className='message-area'>
+
+      </div>
       <div className='bottom'>
         <img src={person} alt="" className='person-icon' />
         <h3>How can I help you today?</h3>

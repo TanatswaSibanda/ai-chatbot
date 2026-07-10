@@ -2,6 +2,9 @@ body {
     background: linear-gradient(#FFFFFF 20%, #FFC9E9 80%);
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -40,13 +43,18 @@ body {
     width: 30px;
 }
 
+.message-area {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
 .bottom {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 0;
-    margin-top: 250px;
+
 }
 
 .person-icon {
@@ -112,11 +120,6 @@ h3 {
         width: 20px;
     }
 
-    .bottom {
-        gap: 0;
-        margin-top: 20rem;
-    }
-
     .person-icon {
         width: 100px;
         padding: 0;
@@ -165,7 +168,7 @@ h3 {
 
     .bottom {
         gap: 0;
-        margin-top: 15rem;
+        margin-top: 60%;
     }
 
     .person-icon {
