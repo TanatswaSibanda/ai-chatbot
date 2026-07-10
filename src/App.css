@@ -108,6 +108,20 @@ h3 {
     height: 30px;
 }
 
+.input-btn {
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    border-bottom: solid 2px #FFFFFF;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    cursor: pointer;
+}
+
+.input-btn:hover {
+    border-color: #EC407A;
+}
+
 @media (max-width: 900px) {
     .model-selector {
         width: 80 px;

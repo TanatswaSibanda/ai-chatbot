@@ -21,9 +21,9 @@ function App() {
         <img src={person} alt="" className='person-icon' />
         <h3>How can I help you today?</h3>
         <div className='input' >
-          <img src={add} alt='' className='input-icon' />
+          <button className='input-btn'><img src={add} alt='' className='input-icon' /></button>
           <input type="text" id="input" placeholder='Ask me anything...' />
-          <img src={submit} alt="" className='input-icon' />
+          <button className='input-btn'><img src={submit} alt="" className='input-icon' /></button>
         </div>
       </div>
     </div>
