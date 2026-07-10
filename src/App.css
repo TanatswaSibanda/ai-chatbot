@@ -2,6 +2,10 @@ body {
     background: linear-gradient(#FFFFFF 20%, #FFC9E9 80%);
     margin: 0;
     padding: 0;
+
+}
+
+.container {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,20 +23,18 @@ body {
 .model-selector {
     display: flex;
     align-items: center;
-    width: 200 px;
-    gap: 10px;
+    gap: 5px;
     color: black;
     background-color: white;
-    margin-top: 100 px;
     border: solid 3px #EC407A;
     border-radius: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 8px;
-    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
     font-weight: 600;
-    font-size: 12pt;
+    font-size: 8pt;
     cursor: pointer;
+
 }
 
 .model-selector:hover {
@@ -40,7 +42,7 @@ body {
 }
 
 .img {
-    width: 30px;
+    width: 20px;
 }
 
 .message-area {
@@ -54,11 +56,12 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 0;
+    margin-bottom: 20px;
 
 }
 
 .person-icon {
-    width: 120px;
+    width: 100px;
     padding: 0;
 
 }
@@ -68,8 +71,7 @@ h3 {
     background: linear-gradient(50deg, #000000 0%, #EC407A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: xx-large;
-    padding: 10px;
+    font-size: x-large;
     font-weight: 500;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -80,9 +82,8 @@ h3 {
     border: none;
     width: 90%;
     height: 90%;
-    padding: 10px;
     color: black;
-    font-size: large;
+    font-size: 16px;
     outline: none;
 }
 
@@ -96,60 +97,18 @@ h3 {
     justify-content: space-between;
     background-color: white;
     border-radius: 20px;
-    padding: 8px 12px;
-    width: 80%;
+    width: 70%;
     border: solid 3px #EC407A;
-    padding: 20px;
+    padding: 15px;
     gap: 10px;
 }
 
-@media (max-width: 900px) {
-    .model-selector {
-        width: 100 px;
-        gap: 5px;
-        margin-top: 80 px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 8px;
-        padding-bottom: 2px;
-        font-size: 10pt;
-
-    }
-
-    .img {
-        width: 20px;
-    }
-
-    .person-icon {
-        width: 100px;
-        padding: 0;
-
-    }
-
-    h3 {
-        margin-top: 0;
-        font-size: x-large;
-        padding: 8px;
-
-    }
-
-    #input {
-        width: 90%;
-        height: 90%;
-        padding: 10px;
-        font-size: large;
-
-    }
-
-    .input {
-        padding: 8px 12px;
-        width: 80%;
-        gap: 10px;
-        padding: 15px;
-    }
+.input-icon {
+    width: 30px;
+    height: 30px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
     .model-selector {
         width: 80 px;
         gap: 3px;
@@ -168,7 +127,8 @@ h3 {
 
     .bottom {
         gap: 0;
-        margin-top: 60%;
+
+
     }
 
     .person-icon {
@@ -197,5 +157,10 @@ h3 {
         width: 80%;
         gap: 10px;
         padding: 10px;
+    }
+
+    .input-icon {
+        width: 25px;
+        height: 25px;
     }
 }
