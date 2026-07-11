@@ -2,6 +2,7 @@ body {
     background: linear-gradient(#FFFFFF 20%, #FFC9E9 80%);
     margin: 0;
     padding: 0;
+    overflow: hidden;
 
 }
 
@@ -9,6 +10,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 
 }
 
